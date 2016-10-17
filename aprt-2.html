@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Петрострой - строительная компания</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet"href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="css/animate.css" media="all"/>
+	<link rel="stylesheet"href="css/all.css" media="all">
+	<link rel="stylesheet"href="css/icomoon.css" media="all">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script src="js/jquery.main.js"></script>
+</head>
+<body>
+	<header id="header" data-os-animation="slideInDown" data-os-animation-delay="0.5s">
+		<div class="container-fluid">
+			<strong class="logo"><a href="#">Петрострой строительная компания</a></strong>
+			<em class="phone">(812) 456 25 25</em>
+			<nav id="nav">
+				<a href="#" class="menu-opener"><span>Menu</span></a>
+				<div class="drop">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Как мы работаем</a></li>
+						<li><a href="#">Решение</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Предчистовая отделка</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Чистовая отделка</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Индивидуальный проект</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal">Заказать ремонт</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="aprt-section">
+		<img src="img/img01.jpg" alt="Image description">
+		<div class="feedback-box" data-os-animation="slideInDown" data-os-animation-delay="0.5s">
+			<form action="#">
+				<div class="select-row">
+					<select>
+						<option>Предчистовая отделка</option>
+						<option selected="selected">Чистовая отделка</option>
+						<option>Индивидуальный</option>
+					</select>
+				</div>
+				<ul class="quantity">
+					<li><a href="#">C</a><span>Студия</span></li>
+					<li><a href="#">1K</a><span>1 комнатная</span></li>
+					<li><a href="#">2K</a><span>2 комнатная</span></li>
+					<li><a href="#">3K</a><span>3 комнатная</span></li>
+				</ul>
+				<div class="square-row">
+					<label>Введите вашу площадь</label>
+					<div class="input-holder">
+						<input type="text" placeholder="18.4">
+						<span class="sign">M&sup2;</span>
+					</div>
+				</div>
+				<footer>
+					<dl>
+						<dt>Стоимость <br class="hidden-xs">ремонта</dt><dd><span>128680</span>₽</dd>
+						<dt class="last">Цена за кв.м</dt><dd class="last"><span>6000</span>₽</dd>
+					</dl>
+					<button class="btn btn-danger btn-mail" type="button" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</button>
+				</footer>
+			</form>
+		</div>
+		<a href="#down" class="btn-down slide-btn">Что входит в чистовую отделку?<i class="icon-arrow-down slideDown"></i></a>
+	</section>
+	<div class="scroll-animation">
+		<section class="services-block" id="down">
+			<div class="services-row steps-gallery">
+				<div class="slides">
+					<div class="slide">
+						<div class="cell last">
+							<span class="number">01</span>
+							<div class="txt">
+								<p>Работа по устройству и монтажу сантехнической и электрической инженирии</p>
+							</div>
+						</div>
+						<div class="cell">
+							<img src="img/img01.jpg" alt="Image description">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="cell last">
+							<span class="number">02</span>
+							<div class="txt">
+								<p>Штукатурные, грунтовые и шпаклевочные работы по стенам</p>
+							</div>
+						</div>
+						<div class="cell">
+							<img src="img/img03.jpg" alt="Image description">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="cell last">
+							<span class="number">03</span>
+							<div class="txt">
+								<p>Отделка оконных откосов ПВХ, монтаж подоконника ПВХ</p>
+							</div>
+						</div>
+						<div class="cell">
+							<img src="img/img01.jpg" alt="Image description">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="cell last">
+							<span class="number">04</span>
+							<div class="txt">
+								<p>Формирование дверных проемов (по желанию - установка дверей)</p>
+							</div>
+						</div>
+						<div class="cell">
+							<img src="img/img03.jpg" alt="Image description">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="cell last">
+							<span class="number">05</span>
+							<div class="txt">
+								<p>Монтаж натяжного потолка, подготовка квартиры к отделочным работам</p>
+							</div>
+						</div>
+						<div class="cell">
+							<img src="img/img01.jpg" alt="Image description">
+						</div>
+					</div>
+				</div>
+				<div class="control-panel">
+					<div class="pagination">
+						<ul>
+							<li class="active"><a href="#">01</a></li>
+							<li><a href="#">02</a></li>
+							<li><a href="#">03</a></li>
+							<li><a href="#">04</a></li>
+							<li><a href="#">05</a></li>
+						</ul>
+					</div>
+					<a href="#" class="btn-prev"><i class="icon-circle-up"></i></a>
+					<a href="#" class="btn-next"><i class="icon-circle-down-white"></i></a>
+				</div>
+			</div>
+			<div class="services-row">
+				<div class="cell arrow auto-height">
+					<div class="cell materials-cell arrow">
+						<div class="txt">
+							<h2 class="title">Какие материалы мы используем?</h2>
+							<a href="#" class="link-gallery"><i class="icon-pdf"></i>Сертификаты</a>
+						</div>
+					</div>
+					<div class="cell auto-height">
+						<div class="materials-gallery">
+							<div class="slides">
+								<div class="slide">
+									<img src="img/img07.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img06.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img05.jpg" alt="Image description">
+								</div>
+							</div>
+							<div class="bottom-panel">
+								<ul class="switcher">
+									<li><a href="#"><img src="img/img07-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img06-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img05-small.jpg" alt="Image description"></a></li>
+								</ul>
+								<h3>Поклейка обоев</h3>
+							</div>
+							<a href="#" class="link-pdf"><i class="icon-pdf"></i></a>
+						</div>
+						<div class="materials-gallery">
+							<div class="slides">
+								<div class="slide">
+									<img src="img/img07.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img06.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img05.jpg" alt="Image description">
+								</div>
+							</div>
+							<div class="bottom-panel">
+								<ul class="switcher">
+									<li><a href="#"><img src="img/img07-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img06-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img05-small.jpg" alt="Image description"></a></li>
+								</ul>
+								<h3>Поклейка обоев</h3>
+							</div>
+							<a href="#" class="link-pdf"><i class="icon-pdf"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="cell auto-height">
+					<div class="cell auto-height">
+						<div class="materials-gallery">
+							<div class="slides">
+								<div class="slide">
+									<img src="img/img07.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img06.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img05.jpg" alt="Image description">
+								</div>
+							</div>
+							<div class="bottom-panel">
+								<ul class="switcher">
+									<li><a href="#"><img src="img/img07-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img06-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img05-small.jpg" alt="Image description"></a></li>
+								</ul>
+								<h3>Поклейка обоев</h3>
+							</div>
+							<a href="#" class="link-pdf"><i class="icon-pdf"></i></a>
+						</div>
+						<div class="materials-gallery">
+							<div class="slides">
+								<div class="slide">
+									<img src="img/img07.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img06.jpg" alt="Image description">
+								</div>
+								<div class="slide">
+									<img src="img/img05.jpg" alt="Image description">
+								</div>
+							</div>
+							<div class="bottom-panel">
+								<ul class="switcher">
+									<li><a href="#"><img src="img/img07-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img06-small.jpg" alt="Image description"></a></li>
+									<li><a href="#"><img src="img/img05-small.jpg" alt="Image description"></a></li>
+								</ul>
+								<h3>Поклейка обоев</h3>
+							</div>
+							<a href="#" class="link-pdf"><i class="icon-pdf"></i></a>
+						</div>
+					</div>
+					<a href="#" class="cell cell-4-3 individual-cell mark">
+						<img src="img/img04.jpg" alt="Image description">
+						<div class="txt">
+							<i class="icon-panorama360"></i>
+							<h3 class="title">Загляните в наш <br>шоу-рум в 360&deg;</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer class="aprt-nav">
+			<a href="aprt-1.html" class="btn-prev"><i class="icon-circle-up"></i><span>Индивидуальный проект</span></a>
+			<a href="#" class="btn btn-danger btn-mail" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</a>
+			<a href="aprt-2.html" class="btn-next"><i class="icon-circle-down-white"></i><span>Предчистовая отделка</span></a>
+		</footer>
+	</div>
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+		<div class="feedback-popup">
+			<strong class="logo"><a href="#">Петрострой строительная компания</a></strong>
+			<h2 class="title">Мы будем рады ответить на все ваши вопросы</h2>
+			<form action="#" id="loginform">
+				<div class="input-holder">
+					<input type="text" placeholder="Ваше имя" class="input-text" name="name">
+					<span class="placeholder">Ваше имя</span>
+				</div>
+				<div class="input-holder">
+					<input type="email" placeholder="Почтовый адрес" class="input-text" name="email">
+					<span class="placeholder">Почтовый адрес</span>
+				</div>
+				<div class="input-holder">
+					<input type="text" placeholder="Номер телефона" class="input-text" id="phone">
+					<span class="placeholder">Номер телефона</span>
+					<span class="text-label">Номер телефона</span>
+				</div>
+				<button class="btn btn-danger btn-mail" type="button"><i class="icon-mail"></i>Оставить заявку</button>
+			</form>
+			<div class="txt">
+				<address>Санкт-Петербург, ул. Звездная 11, корпус 1</address><br>
+				телефон: (812) 456 25 25<br>
+				pstr@pstr.ru
+			</div>
+		</div>
+		<button type="button" class="btn-popup-close" data-dismiss="modal" aria-label="Close"></button>
+	</div>
+</body>
+</html>

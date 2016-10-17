@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Петрострой - строительная компания</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet"href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="css/animate.css" media="all"/>
+	<link rel="stylesheet"href="css/all.css" media="all">
+	<link rel="stylesheet"href="css/icomoon.css" media="all">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script src="js/jquery.main.js"></script>
+</head>
+<body>
+	<header id="header" data-os-animation="slideInDown" data-os-animation-delay="1.7s">
+		<div class="container-fluid">
+			<strong class="logo"><a href="#">Петрострой строительная компания</a></strong>
+			<em class="phone">(812) 456 25 25</em>
+			<nav id="nav">
+				<a href="#" class="menu-opener"><span>Menu</span></a>
+				<div class="drop">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Как мы работаем</a></li>
+						<li><a href="#">Решение</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Предчистовая отделка</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Чистовая отделка</a></li>
+						<li class="hidden-md hidden-lg"><a href="#">Индивидуальный проект</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal">Заказать ремонт</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="about-block">
+		<div class="col img">
+			<img src="img/img02.jpg" alt="Image description">
+			<div class="txt">
+				<h2>
+					<span class="slideDown">Индивидуальный подход.</span>
+					<span class="slideDown">Оперативный сервис.</span>
+					<span class="slideDown">Соблюдение сроков.</span>
+				</h2>
+				<a href="#" class="btn btn-danger btn-mail hidden-md hidden-lg slideUp" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</a>
+			</div>
+		</div>
+		<div class="col">
+			<h2 class="hidden-xs hidden-sm slideDown">Преимущества</h2>
+			<p class="slideDown">К вашим услугам слаженная бригада опытных специалистов в области ремонтных работ. Главная цель нашей работы - счастливый и довольный клиент, а не просто заработок.</p>
+			<a href="#" class="btn btn-danger btn-mail hidden-xs hidden-sm slideUp" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</a>
+			<h2 class="hidden-md hidden-lg">Наши преимущества</h2>
+			<div class="advantages">
+				<div class="cell" data-os-animation="zoomIn" data-os-animation-delay="2.9s">
+					<i class="icon-settings"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>
+					<h3>Экономия на строительных и отделочных материалах</h3>
+				</div>
+				<div class="cell" data-os-animation="zoomIn" data-os-animation-delay="3.52s">
+					<i class="icon-txt"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+					<h3>18 месяцев гарантия на ремонтные работы и материалы</h3>
+				</div>
+				<div class="cell" data-os-animation="zoomIn" data-os-animation-delay="0.3s">
+					<i class="icon-pencil"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>
+					<h3>Бесплатная помощь профессионального дизайнера</h3>
+				</div>
+				<div class="cell" data-os-animation="zoomIn" data-os-animation-delay="0.4s">
+					<i class="icon-lamp"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+					<h3>Уже более 1000 выполненных заказов</h3>
+				</div>
+			</div>
+			<a href="#" class="btn btn-danger btn-mail hidden-md hidden-lg slideDown" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</a>
+		</div>
+	</section>
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+		<div class="feedback-popup">
+			<strong class="logo"><a href="#">Петрострой строительная компания</a></strong>
+			<h2 class="title">Мы будем рады ответить на все ваши вопросы</h2>
+			<form action="#" id="loginform">
+				<div class="input-holder">
+					<input type="text" placeholder="Ваше имя" class="input-text" name="name">
+					<span class="placeholder">Ваше имя</span>
+				</div>
+				<div class="input-holder">
+					<input type="email" placeholder="Почтовый адрес" class="input-text" name="email">
+					<span class="placeholder">Почтовый адрес</span>
+				</div>
+				<div class="input-holder">
+					<input type="text" placeholder="Номер телефона" class="input-text" id="phone">
+					<span class="placeholder">Номер телефона</span>
+					<span class="text-label">Номер телефона</span>
+				</div>
+				<button class="btn btn-danger btn-mail" type="button" data-toggle="modal" data-target="#myModal"><i class="icon-mail"></i>Оставить заявку</button>
+			</form>
+			<div class="txt">
+				<address>Санкт-Петербург, ул. Звездная 11, корпус 1</address><br>
+				телефон: (812) 456 25 25<br>
+				pstr@pstr.ru
+			</div>
+		</div>
+		<button type="button" class="btn-popup-close" data-dismiss="modal" aria-label="Close"></button>
+	</div>
+</body>
+</html>
